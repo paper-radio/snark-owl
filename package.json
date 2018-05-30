@@ -4,7 +4,7 @@
     "main": "js/main.js",
     "license": "MIT",
     "scripts": {
-        "start": "node dist/app.js",
+        "start": "babel src --out-dir dist && node dist/app.js",
         "babel": "babel src --out-dir dist --watch --source-maps"
     },
     "dependencies": {
