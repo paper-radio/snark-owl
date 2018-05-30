@@ -1,6 +1,6 @@
 {
     "name": "allonge",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "main": "js/main.js",
     "license": "MIT",
     "scripts": {
@@ -12,6 +12,8 @@
         "babel-core": "^6.26.3",
         "babel-preset-es2015": "^6.24.1",
         "blessed": "^0.1.81",
-        "lodash": "^4.17.10"
+        "lodash": "^4.17.10",
+        "redux": "^4.0.0",
+        "rot-js": "^0.6.5"
     }
 }
