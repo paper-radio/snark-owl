@@ -4,8 +4,7 @@
     "main": "js/main.js",
     "license": "MIT",
     "scripts": {
-        "start": "babel src --out-dir dist && node dist/app.js",
-        "babel": "babel src --out-dir dist --watch --source-maps"
+        "start": "babel src --out-dir dist && node dist/app.js"
     },
     "dependencies": {
         "babel-cli": "^6.26.0",
